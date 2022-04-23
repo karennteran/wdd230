@@ -27,7 +27,7 @@ let months = [
     "December"
 ];
 
-let lastModif = Date.parse(document.lastModified);
+let lastModif = new Date(document.lastModified);
 // let dayName = dayname[d.getday()];
 let monthName = months[d.getmonth()];
 let year = d.getfullyear();
