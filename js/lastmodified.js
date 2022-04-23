@@ -31,7 +31,7 @@ let lastModif = new Date(document.lastModified);
 // let dayName = dayname[d.getday()];
 let monthName = months[d.getmonth()];
 let year = d.getfullyear();
-`Last Update: ${dayName}, ${monthName}/${d.getDate()}/${year}`
+let fulldate = `Last Update: ${dayName}, ${monthName}/${d.getDate()}/${year}`
 
 document.getElementById("lastmodified").textContent
 
