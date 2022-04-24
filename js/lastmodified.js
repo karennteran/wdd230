@@ -1,2 +1,2 @@
-let d = new Date(lastModified);
+document.getElementById("lastMod").innerHTML = document.lastModified;
 
