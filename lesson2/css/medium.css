@@ -1,4 +1,9 @@
-/* @media (max-width: 600px){ */
+@media (min-width: 32.5em){
+
+
+header{
+    text-align: center;
+}
 
 .ali{
     display: grid;
@@ -6,11 +11,22 @@
 }
 
 .alignment{
+    padding: 5px;
+    text-align: center;
     grid-column: 1/2;
 }
 
 .proximity{
+    padding: 5px;
+    text-align: center;
     grid-column: 2/3;
+}
+
+.contrast{
+    padding: 5px;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 2;
 }
 
 img{
@@ -28,10 +44,19 @@ footer{
 }
 
 #lastMod{
-    margin-left: -220%;
+    grid-column: 2/3;
+    margin-left: -35px;
 }
 
 .update{
-    margin-left: 250px;
+    margin-top: -10px;
+    margin-left: -55%;
+    grid-column: 2/4;
 }
-/* } */
+
+.copyright{
+    margin-left: -10%;
+    grid-column: 2/3;
+}
+
+}
