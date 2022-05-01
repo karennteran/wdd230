@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em){
+    header {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 300px auto;
+    }
+
+    h1 {
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .update{
+        margin-top: -11px;
+        margin-left: 175px;
+    }
+
+    span{
+        margin-left: -60%;
+    }
+
+}
