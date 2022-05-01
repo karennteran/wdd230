@@ -1,0 +1,37 @@
+@media (max-width: 600px){
+
+.ali{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.alignment{
+    grid-column: 1/2;
+}
+
+.proximity{
+    grid-column: 2/3;
+}
+
+img{
+    margin: 10px;
+    padding: 10px;
+}
+
+footer{
+    color: yellow;
+    background-color: rgb(8, 65, 172);
+    text-align: center;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#lastMod{
+    margin-left: -220%;
+}
+
+.update{
+    margin-left: 250px;
+}
+}

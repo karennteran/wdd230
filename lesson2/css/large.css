@@ -1,0 +1,40 @@
+@media (max-width: 940px){
+
+main{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.alignment{
+    padding: 10px;
+    margin: 20px 40px 20px 40px;
+    grid-column: 1/2;
+    
+}
+
+.proximity{
+    padding: 10px;
+    margin: 20px 20px 20px 60px; 
+    grid-column: 2/3;
+}
+
+.contrast{
+    padding: 10px;
+    margin: 20px 40px 20px 60px;
+    grid-column: 3/4;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#lastMod{
+    margin-left: -203%;
+}
+
+.update{
+    margin-left: 52%;
+}
+}
