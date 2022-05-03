@@ -1,4 +1,4 @@
-@media (max-width: 390px){
+@media only screen and (max-width: 390px){
 
 header{
     max-width: 100%;
@@ -19,10 +19,24 @@ h2{
     margin: 5px;
 }
 
+a{
+    color:black;
+}
+
 p{
     text-align: center;
     margin: 5px 30px 50px 30px;
     padding: 1px;
+}
+
+.ali{
+    padding: 5px;
+    background-color: rgb(233, 233, 173);
+}
+
+.contra{
+    padding: 5px;
+    background-color: rgb(233, 233, 173);
 }
 
 footer{

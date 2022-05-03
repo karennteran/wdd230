@@ -1,4 +1,11 @@
-/* @media (max-width: 60em){ */
+@media (min-width: 780px){
+
+
+.all{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: -50%;
+}
 
 
 header{
@@ -11,14 +18,20 @@ header{
 }
 
 main{
+    /* background-color: orange; */
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+body{
+    background-color: orange;
+}
+
 .ali{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color:black; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
 }
 
 .alignment{
@@ -76,18 +89,16 @@ footer{
 .copyright{
     grid-column: 2/3;
     grid-row: 1;
-    margin-left: -50px;
 }
 
 #lastMod{
-    margin-left: 55px;
+    margin-left: 5px;
     grid-column: 2/3;
     grid-row: 3;
 }
 
 .update{
-    margin-left: 90px;
     grid-column: 2/3;
     grid-row: 2;
 }
-/* } */
+}
