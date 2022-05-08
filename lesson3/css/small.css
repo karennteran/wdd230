@@ -1,0 +1,19 @@
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+img{
+    grid-column: 1/2;
+}
+
+h1{
+    grid-column: 3/5;
+}
+
+nav{
+    grid-column: 1/4;
+    grid-row: 2;
+}
